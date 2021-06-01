@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <script>
+    alert( 'Hello, world!' );
+    function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+function showOk() {
+  alert( "You agreed." );
+}
+
+function showCancel() {
+  alert( "You canceled the execution." );
+}
+ask("Do you agree?", showOk, showCancel);
+let message;
+message = 'Hello! My name is Rachel. I am in computer class right now typing this.';
+
+alert(message);
+  </script>
+
+</body>
+
+</html>
